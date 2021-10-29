@@ -19,26 +19,30 @@
 
         }
         .divs {
-            border-radius: 25%, 25%, 25%, 25%;
-            margin-top: 20px;
-            margin-bottom: 10px;
-            margin-right: 100px;
-            margin-left: 00px;
+            
             border-width: 150px;
             padding: 10px;
-            
+            width: 50mm;
+            margin: auto;
         }
+        .text   {
+            text-align: center;
+        }
+        .inputs {
+
+        }
+
     </style>
   </head>
 
   <body class="bg">
     <div class="container">
           <!-- Content here -->
-        <h3>Timer</h3>
-        <h4>Reps and Time</h4>
+        <h3 class="text">Timer</h3>
+        <h4 class="text">Reps and Time</h4>
     <form>    
         <div id="smalls" class="divs" >
-            <input col-xs-2 type="number" placeholder="Reps">
+            <input class="inputs" type="number" width="50px" placeholder="Reps" maxlength="4">
         </div>
         <div class="divs">
             <input type="time">
